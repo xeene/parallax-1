@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Test</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js"></script>
+</head>
+<body>
+    <nav class = "navigation">
+        <ul>
+            <li class="menu"><a href="#">Home</a></li>
+            <li class="menu"><a href="#about">About</a></li>
+            <li class="menu"><a href="#blog">Blog</a></li>
+            <li class="menu"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <div class="container">
+            <header class="main__header">
+                <div class="layers">
+                    <div class="layers__header">
+                        <div class="layers__caption">Welcome to Parallax</div>
+                        <div class="layers__title">Fairy Forest</div>
+                    </div>
+                    <div class="layer layers__base" style = "background-image: url(img/layer-base.png);"></div>
+                    <div class="layer layers__middle" style = "background-image: url(img/layer-middle.png);"></div>
+                    <div class="layer layers__front" style = "background-image: url(img/layer-front.png);"></div>
+                </div>
+            </header>
+        
+            <article id = "about" class="main__article" style ="background-image: url(img/dungeon.jpg);">
+                <div class="main__article__content">
+                    <h2 class="main__article__header">About Me</h2>
+                    <p class = "main__article__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Tempora laborum quas deserunt odit animi molestias, perspiciatis vel deleniti assumenda aliquam! Ipsam optio officiis saepe explicabo porro tempore aspernatur! Quas, similique.
+                    Laborum porro unde saepe iure ratione corrupti, atque harum dolore quo velit blanditiis itaque labore excepturi id sunt. 
+                    <div class="copy">© Test Copyright</div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
