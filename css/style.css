@@ -65,7 +65,7 @@ body {
 @media (max-width: 768px) {
     .navigation ul li {
         padding: 0px 15px;
-        font-size: 15x;
+        font-size: 15px;
     }
 }
 
